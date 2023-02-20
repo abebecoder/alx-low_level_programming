@@ -2,7 +2,7 @@
 /**
 *main - Entry point
 *
-*Return: 0 (Success)
+*Return: Always 0 (Success)
 */
 
 int main(void)
@@ -21,7 +21,7 @@ int main(void)
 	while (c <= 'f') {
 		putchar(c);
 		c++;
-	}
+		}
 	putchar('\n');
 	return (0);
 }
