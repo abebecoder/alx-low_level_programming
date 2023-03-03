@@ -1,7 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
-
 /**
  * print_buffer - prints buffer
  * @b: buffer
@@ -9,10 +7,9 @@
  * Return: void
  */
 
-
 void print_buffer(char *b, int size)
 {
-        int o, j, i;
+	int o, j, i;
 
 
         o = 0;
